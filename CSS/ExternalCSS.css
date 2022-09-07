@@ -1,0 +1,47 @@
+body{
+    font-family:'calibi';
+}
+p{
+    font-family:'calibi';
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+} 
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+input[tyoe="text"]:hover{
+    color: red;
+}
+input[type="text"]{
+    color: green;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type:lower-roman;
+}
+table, th, td{
+    border: 1px solid;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+    border: 1px solid;
+}
+tr:hover {
+    background-color: lightblue;
+}
+hr{
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px black;
+}
